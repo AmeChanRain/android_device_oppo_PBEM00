@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config operator="ALL">
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+    </carrier_config>
+    <carrier_config operator="CMCC">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="5">
+            <item value="46000" />
+            <item value="46002" />
+            <item value="46004" />
+            <item value="46007" />
+            <item value="46008" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
